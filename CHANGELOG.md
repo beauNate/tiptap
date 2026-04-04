@@ -1,5 +1,63 @@
 # Releases
 
+## v3.22.2
+
+### @tiptap/core
+
+#### Patch Changes
+
+- 85e3f25: Fix incorrect selection placement when pasting at the end of a marked text node, ensuring inclusive marks are respected
+- 85e3f25: Fixes list toggling when the entire document is selected
+
+### @tiptap/extension-typography
+
+#### Patch Changes
+
+- 85e3f25: Added RTL smart quote support
+
+### @tiptap/react
+
+#### Patch Changes
+
+- 85e3f25: Fixed an error where `flushSync()` would run in `<EditorContent />` lifecycle
+
+### @tiptap/extension-drag-handle-vue-3
+
+#### Patch Changes
+
+- 85e3f25: Fixed an issue causing drag handle visibility not to update dynamically in Vue 3 components.
+
+### @tiptap/starter-kit
+
+#### Patch Changes
+
+- Updated dependencies [85e3f25]
+- Updated dependencies [85e3f25]
+  - @tiptap/core@3.22.2
+  - @tiptap/extension-dropcursor@3.22.2
+  - @tiptap/extension-gapcursor@3.22.2
+  - @tiptap/extension-list-item@3.22.2
+  - @tiptap/extension-list-keymap@3.22.2
+  - @tiptap/extension-blockquote@3.22.2
+  - @tiptap/extension-bold@3.22.2
+  - @tiptap/extension-bullet-list@3.22.2
+  - @tiptap/extension-code@3.22.2
+  - @tiptap/extension-code-block@3.22.2
+  - @tiptap/extension-document@3.22.2
+  - @tiptap/extension-hard-break@3.22.2
+  - @tiptap/extension-heading@3.22.2
+  - @tiptap/extension-horizontal-rule@3.22.2
+  - @tiptap/extension-italic@3.22.2
+  - @tiptap/extension-link@3.22.2
+  - @tiptap/extension-list@3.22.2
+  - @tiptap/extension-ordered-list@3.22.2
+  - @tiptap/extension-paragraph@3.22.2
+  - @tiptap/extension-strike@3.22.2
+  - @tiptap/extension-text@3.22.2
+  - @tiptap/extension-underline@3.22.2
+  - @tiptap/extensions@3.22.2
+  - @tiptap/pm@3.22.2
+
 ## v3.22.1
 
 ### @tiptap/extension-drag-handle
